@@ -312,8 +312,10 @@ article{
     	padding: 30px 20px;
     }
   }
-  
-  .table{
+}
+
+
+.table{
     width: 100%;
     
     tr{
@@ -356,7 +358,6 @@ article{
       
     }
   }
-}
 
 
 
@@ -372,6 +373,12 @@ article{
     
     @include media_query(){
     	padding: 30px 20px;
+    }
+    
+    p{
+      font-size: 1.6rem;
+      line-height: 2;
+      margin-bottom: 20px;
     }
   }
   
@@ -402,6 +409,43 @@ article{
     p{
       font-size: 1.6rem;
       line-height: 2;
+    }
+    
+    .table_wrap{
+      min-width: 300px;
+      overflow: scroll;
+    }
+    
+    .sponsor_table{
+      width: 100%;
+    
+      tr{
+        
+      }
+      
+      th,td{
+        font-size: 1.6rem;
+        text-align: left;
+        vertical-align: middle;
+        padding: .6em 1em;
+        border: solid 1px #707070;
+        
+        @include media_query(){
+        	font-size: 1.4rem;
+        }
+      }
+      
+      th{
+        white-space: nowrap;
+        width: 15em;
+        background-color: #00131c;
+        color: #fff;
+        text-align: center;
+      }
+      
+      td{
+        text-align: center;
+      }
     }
   }
   
