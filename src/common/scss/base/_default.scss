@@ -23,6 +23,7 @@ body{
 a{
   color: $accent-color;
   text-decoration: none;
+
 }
 
 li{
@@ -34,7 +35,7 @@ input,
 select,
 textarea {
     color: $font-color;
-    
+
     &:focus{
 	    outline: none;
     }
